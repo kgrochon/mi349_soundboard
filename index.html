@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=PT+Sans+Caption&family=Rampart+One&display=swap" rel="stylesheet"> 
+    <title>Sound Board</title>
+</head>
+<body>
+
+    <div id="container">
+        <button id="time_btn">Time</button>
+        <button id="special_btn">Special Encounter</button>
+        <button id="chaos_btn">Chaos</button>
+    </div>
+    
+    <audio id="explosion">
+        <source src="explosion_x.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="special">
+        <source src="ice_cream_truck.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="time">
+        <source src="cuckoo_clock2_x.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div id="display_time"></div>
+
+</body>
+<script src="soundboard.js"></script> 
+</html>

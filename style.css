@@ -1,0 +1,57 @@
+body {
+    margin: 150px auto;
+    background-color: lightblue;
+}
+
+button {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.5rem;
+    padding: 20px;
+    margin: 20px;
+}
+
+#container {
+    display: grid;
+}
+
+#time_btn {
+    grid-column: 2/4;
+    grid-row: 1;
+    color: white;
+    border: 8px solid grey;
+    border-radius: 10px;
+    background: rgb(104, 104, 104);
+}
+
+#special_btn {
+    grid-column: 1;
+    grid-row: 1/3;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red); 
+    background-clip: text;  
+    -webkit-background-clip: text;
+    border-radius: 10px;
+    color: transparent;
+    border: 8px solid red;
+}
+
+#chaos_btn {
+    grid-column: 2/4;
+    grid-row: 2;
+    color: red;
+    border: 8px solid darkred;
+    border-radius: 10px;
+    background: rgb(253, 189, 69);
+}
+
+.cone {
+    background-image: url(cone.jpg);
+    background-size:cover;
+}
+
+#display_time {
+    margin: 20px auto;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(104, 104, 104);
+}
